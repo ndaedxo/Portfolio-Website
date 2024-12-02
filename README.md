@@ -101,7 +101,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Your Name
 - GitHub: [@ndaedzo](https://github.com/ndaedxo)
-- LinkedIn: [Ndaedzo Austin Mukhuba](https://linkedin.com/in/yourusername)
+- LinkedIn: [Ndaedzo Austin Mukhuba](https://linkedin.com/in/ndaedzo-mukhuba-71759033b)
 - Email: [ndaemukhuba](ndaemukhuba@gmail.com)
 
 ## ⭐ Show your support
