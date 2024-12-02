@@ -94,27 +94,39 @@ const projects = [
     demoLink: '#',
     tags: ['Django', 'Blockchain', 'ZKP', 'PostgreSQL']
   },
-
   {
     id: 10,
     category: 'react',
-    title: 'E-commerce Web App',
-    description: 'A full-stack e-commerce web application built with React.js, Django, and PostgreSQL.',
-    image: 'https://picsum.photos/400/240',
-    githubLink: '#',
+    title: 'AIda Customer Service Chatbot',
+    description: 'A modern, AI-powered customer service chatbot built with Next.js 13+, OpenAI GPT-4, and Tailwind CSS.',
+    image: 'https://picsum.photos/400/249',
+    githubLink: 'https://github.com/ndaedxo/AI-Powered-Customer-Service-Chatbot',
     demoLink: '#',
+    tags: ['Next.js', 'React', 'TypeScript', 'OpenAI GPT-4', 'Tailwind CSS']
   },
   {
     id: 11,
-    category: 'native',
-    title: 'Budget Tracker App',
-    description: 'A mobile app to track your expenses and manage your budget, developed using React Native.',
-    image: 'https://picsum.photos/400/241',
-    githubLink: '#',
+    category: 'react',
+    title: 'SocialSpark',
+    description: 'Modern social media application enabling users to connect, share thoughts, and engage with others in a streamlined interface.',
+    image: 'https://picsum.photos/400/250',
+    githubLink: 'https://github.com/ndaedxo/Social-Media-Platform',
     demoLink: '#',
+    tags: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'React Router']
   },
+  {
+    id: 12,
+    category: 'python',
+    title: 'Enhanced Sentiment Analysis Tool',
+    description: 'Powerful sentiment analysis tool using Python and Hugging Face Transformers, capable of analyzing text inputs and files.',
+    image: 'https://picsum.photos/400/251',
+    githubLink: 'https://github.com/ndaedxo/enhanced-sentiment-analysis',
+    demoLink: '#',
+    tags: ['Python', 'Machine Learning', 'NLP', 'Hugging Face', 'Transformers']
+  }
 ]
 
+// Rest of the component remains the same as in the original code
 const MyProjects = () => {
   const [activeCategory, setActiveCategory] = useState<ProjectCategory>('all')
 
