@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import ProjectCard from './ProjectCard'
 
-type ProjectCategory = 'all' | 'react' | 'native' | 'aspnet' | 'django' | 'python' | 'blockchain'
+type ProjectCategory = 'all' | 'react' | 'native' | 'aspnet' | 'django' | 'python' | 'blockchain' |'ai'
 
 const projects = [
   {
@@ -96,7 +96,7 @@ const projects = [
   },
   {
     id: 10,
-    category: 'react',
+    category: 'ai',
     title: 'AIda Customer Service Chatbot',
     description: 'A modern, AI-powered customer service chatbot built with Next.js 13+, OpenAI GPT-4, and Tailwind CSS.',
     image: 'https://picsum.photos/400/249',
@@ -116,7 +116,7 @@ const projects = [
   },
   {
     id: 12,
-    category: 'python',
+    category: 'ai',
     title: 'Enhanced Sentiment Analysis Tool',
     description: 'Powerful sentiment analysis tool using Python and Hugging Face Transformers, capable of analyzing text inputs and files.',
     image: 'https://picsum.photos/400/251',
@@ -140,7 +140,7 @@ const MyProjects = () => {
       
       <div className="mb-6">
         <ul className="flex flex-wrap gap-4">
-          {['all', 'react', 'native', 'aspnet', 'django', 'python', 'blockchain'].map((category) => (
+          {['all', 'react', 'native', 'aspnet', 'django', 'python', 'blockchain', 'ai'].map((category) => (
             <li key={category}>
               <button 
                 onClick={() => setActiveCategory(category as ProjectCategory)}
