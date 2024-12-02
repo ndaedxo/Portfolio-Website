@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS. This application showcases your professional work, skills, and contact information with a beautiful, user-friendly interface.
 
-![DevShowcase Preview](preview.png)
+[DevShowcase Preview](https://ndaedxo.github.io/Portfolio-Website/)
 
 ## 🌟 Features
 
@@ -99,10 +99,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👤 Author
 
-Your Name
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourusername)
-- Email: your.email@example.com
+Ndaedzo Austin Mukhuba
+- GitHub: [@ndaedzo](https://github.com/ndaedxo)
+- LinkedIn: [Ndaedzo Austin Mukhuba](https://linkedin.com/in/ndaedzo-mukhuba-71759033b)
+- Email: [ndaemukhuba](ndaemukhuba@gmail.com)
 
 ## ⭐ Show your support
 
